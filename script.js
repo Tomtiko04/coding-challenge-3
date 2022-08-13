@@ -20,6 +20,12 @@ const poll = {
         this.displayResults();
         this.displayResults('string');
     },
+    
+    /*3. Create a method 'displayResults' which displays the poll results. The method takes a string as an input (called 'type'), which can be either 'string'
+or 'array'. If type is 'array', simply display the results array as it is, using
+console.log(). This should be the default option. If type is 'string', display a
+string like "Poll results are 13, 2, 4, 1"*/
+    
     displayResults(type = 'array') {
         if (type === 'array') {
             console.log(this.answers);

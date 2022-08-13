@@ -28,5 +28,5 @@ const poll = {
         }
     },
 };
-
+//2.Call this method whenever the user clicks the "Answer poll" button
 document.querySelector('.poll').addEventListener('click', poll.registerNewAnswer1.bind(poll));

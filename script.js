@@ -5,6 +5,8 @@ const poll = {
     options: ["0: JavaScript", "1: Python", "2: Rust", "3:C++"],
    
     answers: new Array(4).fill(0),
+    
+    //1. Create a method called 'registerNewAnswer' on the 'poll' object. The method does 2 things:
     registerNewAnswer1() {
         //return prompt(this.question + ' ' + [...this.options]);
         const ans = Number(
